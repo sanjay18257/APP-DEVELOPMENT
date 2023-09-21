@@ -1,0 +1,63 @@
+/* Home.css */
+
+.home {
+    display: flex;
+  }
+  .dashboard {
+    flex: 0 0 250px; /* Fixed width for the dashboard */
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+  }
+  nav li {
+    display: inline;
+    padding: 0px;
+    margin-left: 165px;
+    font-family: Inter,sans-serif;
+    font-weight: 750;
+  }
+  .dashboard h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .main-content {
+    flex-grow: 1; /* Allow the main content to grow and fill the remaining space */
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .feature {
+    flex: 0 1 calc(33.33% - 20px);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .feature p {
+    font-size: 16px;
+    color: #666;
+  }
+  
