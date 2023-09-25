@@ -1,0 +1,70 @@
+.form-box {
+    background-size: 50%;
+    background-position: left;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    background-image: url("../images/4957136.jpg");    
+    align-items: center;
+  }
+  /* Form Styles */
+  .form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+  }
+  .title {
+    font-size: 24px;
+    color: #333;
+    margin: 0 0 20px;
+  }
+  
+  .form-container {
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    font-size: large;
+  }
+ 
+  .signupinput {
+    width: 400px;
+    padding: 12px;
+    border-radius: 0px;
+    font-size: 16px;
+    border: none;
+    
+    border-bottom: 1px solid #000000;
+    transition: border-color 0.3s ease;
+  }
+  
+  .signupinput:focus {
+    border-color: #0073e6;
+  }
+  
+  /* Button Styles */
+  button {
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 2.3s ease;
+  }
+  
+  
+  
+  .button-log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  /* Span Styles */
+  span {
+    font-weight: bold;
+    color: #777;
+  }

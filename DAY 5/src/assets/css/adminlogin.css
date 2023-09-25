@@ -1,0 +1,90 @@
+.admin-digital-marketing-login-background {
+    background-size:50%;
+    background-image: url("../images/4957136.jpg");    
+    background-position:right;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Form Styles */
+  .admin-digital-marketing-login-form {
+    padding: 20px;
+    width: 30%;
+    margin-right: 50%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.14); /* Add a subtle box shadow */
+  }
+  
+  .admin-digital-marketing-login-form h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 0 0 20px;
+  }
+  
+  .admin-input-form {
+    width: 400px;
+    padding: 12px;
+    border-radius: 0px;
+    font-size: 16px;
+    border: none;
+    
+    transition: border-color 0.3s ease;
+  }
+  
+  .input {
+    width: 90%;
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    border-radius: 0px;
+    font-size: 16px;
+    transition: border-color 0.3s ease; /* Add a smooth transition for input focus */
+  }
+  
+  .input:focus {
+    border-color: #0073e6; /* Change input border color on focus */
+  }
+  
+  /* Button Styles */
+  .admin-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Add spacing between form and buttons */
+  }
+  
+  .button-submit,
+  .button-signup {
+    padding: 12px 24px; /* Slightly larger buttons for better touch targets */
+    font-size: 18px; /* Increase button font size */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition for button hover */
+  }
+  
+  .button-submit {
+    background-color: #0073e6;
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .button-signup {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .button-submit:hover,
+  .button-signup:hover {
+    background-color: #005bbf; /* Darken button color on hover */
+    filter: brightness(1.2);
+  }
+  
+  span {
+    font-weight: bold;
+    color: #777;
+  }
