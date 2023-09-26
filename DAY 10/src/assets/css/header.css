@@ -1,0 +1,84 @@
+.icon {
+    vertical-align: middle;
+    line-height: 1px;
+    font-size: 20px;
+  }
+  .icon_header {
+    vertical-align: middle;
+    line-height: 1px;
+    font-size: 26px;
+  }
+  .icon, .icon_header {
+    margin-right: 5px;
+  }
+  
+  .close_icon {
+    color: red;
+    margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 260px 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 3fr;
+    grid-template-areas:
+      'sidebar header header header'
+      'sidebar main main main';
+    height: 100vh;
+  }
+  
+  /* Header  */
+  .header {
+    grid-area: header;
+    height: 60px;
+    display: flex;
+    width: 100%;
+    margin-right: 10%;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#04354a;
+    padding: 0 20px 0 20px;
+    box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
+  }
+  
+  .n a{
+
+      text-decoration: none;
+      margin-right: 20px;
+      color: white;
+    }
+    .n {
+        display: flex;
+        flex-direction:row;
+        margin-left: 100px;
+    
+  }
+  .sidebar-brand {
+    position: relative;
+    
+    display: flex;
+    left:700px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .header {
+    background-color:#04354a;
+    color: white;
+    padding: 10px;
+  }
+  
+  .header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .header li:hover{
+    background-color: #091f29;
+  }
+  
+  .header ul li {
+    display: inline;
+    margin-right: 10px;
+}
